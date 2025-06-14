@@ -7,10 +7,10 @@
 
         default_layer {
             bindings = <
-                &bt BT_SEL 0     // кнопка 1
-                &bt BT_SEL 1     // кнопка 2
-                &bt BT_CLR       // кнопка 3
-                &reset           // кнопка 4
+                &bt BT_SEL 0
+                &bt BT_SEL 1
+                &bt BT_CLR
+                &reset
             >;
         };
     };
