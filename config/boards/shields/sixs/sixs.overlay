@@ -10,6 +10,5 @@
                       <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
                       <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
                       <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
     };
 };
