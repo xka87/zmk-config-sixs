@@ -1,16 +1,15 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
- / {
-    keymap {
-        compatible = "zmk,keymap";
+&keymap {
+    compatible = "zmk,keymap";
 
-        default_layer {
-            bindings = <
-                &kp A &kp B &kp C
-                &kp D &kp E &kp F
-                &kp G &kp H &kp I
-            >;
-        };
+    default_layer {
+        bindings = <
+            &bt BT_SEL 0     // Кнопка 1: выбор Bluetooth-профиля 0
+            &bt BT_SEL 1     // Кнопка 2: выбор Bluetooth-профиля 1
+            &bt BT_CLR       // Кнопка 3: сброс всех BT-соединений
+            &reset           // Кнопка 4: перезагрузка контроллера
+        >;
     };
 };
