@@ -1,0 +1,6 @@
+if SHIELD_SIXS
+         
+config ZMK_KEYBOARD_NAME
+     default "six"
+
+endif
