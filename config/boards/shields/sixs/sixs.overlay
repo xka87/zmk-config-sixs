@@ -11,3 +11,4 @@
                       <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
+а 
